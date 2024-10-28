@@ -1,0 +1,12 @@
+# Ignore Go build and module files
+/bin/
+/pkg/
+/vendor/
+*.exe
+*.log
+*.out
+*.test
+
+# Mac and Linux system files
+.DS_Store
+

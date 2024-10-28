@@ -1,0 +1,5 @@
+https://google.com
+https://google.com/home?qs=value
+https://google.com/home?qs=secondValue
+https://google.com/home?qs=newValue&secondQs=anotherValue
+https://google.com/home?qs=asd&secondQs=das
