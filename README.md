@@ -51,4 +51,4 @@ Once installed, you can start deduplicating right away:
 ```bash
 cat urls.txt | gouniq --similar
 ```
-### Deduplicate by Query Parameters
+### Deduplicate by Query Parameters Inspired by the tool @dedupe
