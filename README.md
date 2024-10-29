@@ -39,4 +39,16 @@ When the similar flag is set, the tool uses a regex to remove or generalize segm
 /api/users/123 and /api/users/456 would both be transformed to /api/users/id.
 /users/photos/photo.jpg and /users/photos/other_photo.jpg would remain as they are, as they don’t contain ID-like segments.
 This mode helps reduce redundancy when the unique aspects of URLs are not relevant to deduplication (e.g., when IDs or specific photo names don’t matter).
+
+🚀 ## Installation
+You can install gouniq directly with Go:
+
+```bash
+go install github.com/Th3redTea/gouniq@latest
+```
+Once installed, you can start deduplicating right away:
+
+```bash
+cat urls.txt | gouniq --similar
+```
 ### Deduplicate by Query Parameters
