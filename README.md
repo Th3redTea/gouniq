@@ -48,6 +48,8 @@ go install github.com/Th3redTea/gouniq@latest
 ```
 Once installed, you can start deduplicating right away:
 
+https://careers.axa.com/careers-home/jobs/11361?lang=en-us&previousLocale=en-US
+
 ```bash
 cat urls.txt | gouniq --similar
 ```
